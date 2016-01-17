@@ -1,3 +1,5 @@
-# Yelp Text Analysis 
+# Yelp Text and Sentiment Analysis 
 
-Yelp Text Analysis aims to help the clients to identify the areas of improvement to better match their expectation within the the resturant category in the 5 US states.
+Yelp Text and Sentiment Analysis ...
+
+Demo: https://public.tableau.com/profile/yi.hao#!/vizhome/G1T3_Final/CompetitorAnalysis
