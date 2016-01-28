@@ -17,15 +17,17 @@ Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visu
 
 ##Documentation
 ###Data
-1. Yelp data: https://goo.gl/WbJ3eo
-2. Tableau dashboard1 data: https://goo.gl/Ij0MTN
-3. Tableau dashboard2 data: https://goo.gl/TkOD0W
-4. Tableau dashboard3 data: https://goo.gl/DoIP4u
-5. Restaurants <= 2.0stars: https://goo.gl/1SrPpG
-6. Restaurants >= 2.5stars: && <= 3.5 stars https://goo.gl/XhOqo1
-7. Restaurants >= 4.0stars: https://goo.gl/ujzzeq
-8. Bigram data https://goo.gl/fVMq7L
-9. Stopwords https://goo.gl/GBQSKp
+1. Tableau dashboard1 data: https://goo.gl/Ij0MTN
+2. Tableau dashboard2 data: https://goo.gl/TkOD0W
+3. Tableau dashboard3 data: https://goo.gl/DoIP4u
+4. Yelp data: https://goo.gl/WbJ3eo (TextSplit.py)
+5. Restaurants by category,state and rating https://goo.gl/qae86U (Tableau2.py)
+6. Restaurants <= 2.0stars: https://goo.gl/1SrPpG (Tableau3.py)
+7. Restaurants >= 2.5stars: && <= 3.5 stars https://goo.gl/XhOqo1 (Tableau3.py)
+8. Restaurants >= 4.0stars: https://goo.gl/ujzzeq (Tableau3.py)
+9. Bigram data https://goo.gl/fVMq7L (Tableau3.py)
+10. Stopwords https://goo.gl/GBQSKp (Tableau3.py)
+
 
 ###Codes
 1. TextSplit.py
