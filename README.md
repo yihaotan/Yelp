@@ -8,7 +8,18 @@ Demo: goo.gl/RbKSdw
 
 ##Core Features 
 - Text and Sentiment classifier (Textblob)
-- General Overview of the resturants (Where are the popular and unpopular resturants)
-- Competitor Analysis for similar resturants (Side by Side Wordcloud to display the positive, neutral and negative keywords)
-- Bigram Analysis for resturants with similar business category and rating etc (Wordcloud and barcharts to display the importance of positve and negative keywords) 
-- Importance = frequency of words * polarity score
+- General Overview of the resturants (Location of the popular and unpopular resturants)
+- Competitor Analysis for the resturants with similar business category and location etc. (Side by Side Wordclouds to display the positive, neutral and negative keywords)
+- Bigram Analysis for the resturants with similar business category and location etc. (Wordcloud and barcharts to display the importance, frequency * polarity score, of positve and negative keywords) 
+
+##Architecture
+Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visualisation and data cleansing / mining respectively.
+
+##Documentation
+
+###Important Files
+
+
+###Getting Started
+
+
