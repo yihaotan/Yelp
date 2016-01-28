@@ -20,11 +20,10 @@ Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visu
 1. Yelp data: https://goo.gl/WbJ3eo
 2. Tableau dashboard1 data: https://goo.gl/Ij0MTN
 3. Tableau dashboard2 data: https://goo.gl/TkOD0W
-4. Restaurants <= 2.0stars https://goo.gl/1SrPpG
-5. Restaurants >= 2.5stars && <= 3.5 stars https://goo.gl/XhOqo1
-6. Restaurants >= 4.0stars https://goo.gl/ujzzeq
+4. Restaurants <= 2.0stars: https://goo.gl/1SrPpG
+5. Restaurants >= 2.5stars: && <= 3.5 stars https://goo.gl/XhOqo1
+6. Restaurants >= 4.0stars: https://goo.gl/ujzzeq
 7. Tableau dashboard3 data: https://goo.gl/DoIP4u
-
 
 ###Codes
 1. TextSplit.py
