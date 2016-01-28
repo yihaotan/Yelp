@@ -29,7 +29,8 @@ Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visu
 
 ###Codes
 1. TextSplit.py
-2. Tableau2.py 
+2. Tableau2.py
+3. Tableau3.py
 
 ###Getting Started
 
