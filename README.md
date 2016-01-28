@@ -110,7 +110,7 @@ try:
 - classify the adjective based on polarity namely negative, neutral and positive
 - get data required for Tableau dashboard2
 
-###Counter package
+Counter package
 ```
 wordCount = Counter(textArray)
 wordOutput = wordCount.most_common(20)
