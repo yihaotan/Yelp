@@ -73,6 +73,43 @@ for s in blob.sentences:
 - read the text review by each sentence
 - classify each sentence based on polarity namely negative, neutral and positive
 - if the number of positive sentences > negative sentences, text review == positive and vice-versa
-- use to get data required for Tableau dashboard1
+- get data required for Tableau dashboard1
+
+```
+for k in dictReview:
+    blob = TextBlob(dictReview[k])
+    textArray = []
+    adjArray = []
+    nounArray = []
+    for word,pos in blob.tags:
+        if word not in stops:
+            textArray.append(word)
+        if word not in stops and pos == 'JJ':
+            adjArray.append(word)
+        if word not in stops and pos == "NN":
+            nounArray.append(word)
+```
+- initialise TextBlob, a sentiment classifier for text review
+- Use Pos-Tags in TextBlob to seperate the word into word, adjective and noun
+
+```
+try:
+    print adjOutput[i][0]
+    blob = TextBlob(adjOutput[i][0])
+    if blob.polarity < 0:
+        pol = "neg"
+    elif blob.polarity > 0:
+        pol = "pos"
+    else:
+        pol = "neu"
+    second = [adjOutput[i][0],pol,adjOutput[i][1]]
+        except IndexError:
+    second = ["NA","NA",0]
+```
+- initialise TextBlob, a sentiment classifier for text review
+- classify the adjective based on polarity namely negative, neutral and positive
+- get data required for Tableau dashboard2
+
+
 
 
