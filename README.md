@@ -90,7 +90,7 @@ for k in dictReview:
             nounArray.append(word)
 ```
 - initialise TextBlob, a sentiment classifier for text review
-- Use Pos-Tags in TextBlob to seperate the word into word, adjective and noun
+- use Pos-Tags in TextBlob to seperate the word into word, adjective and noun
 
 ```
 try:
@@ -102,14 +102,23 @@ try:
         pol = "pos"
     else:
         pol = "neu"
-    second = [adjOutput[i][0],pol,adjOutput[i][1]]
-        except IndexError:
-    second = ["NA","NA",0]
+        second = [adjOutput[i][0],pol,adjOutput[i][1]]
+    except IndexError:
+        second = ["NA","NA",0]
 ```
 - initialise TextBlob, a sentiment classifier for text review
 - classify the adjective based on polarity namely negative, neutral and positive
 - get data required for Tableau dashboard2
 
-
+###Counter package
+```
+wordCount = Counter(textArray)
+wordOutput = wordCount.most_common(20)
+nounCount = Counter(nounArray)
+nounOutput = nounCount.most_common(20)
+adjCount = Counter(adjArray)
+adjOutput = adjCount.most_common(20)
+```
+- top 20 count for adjectives, nouns and words
 
 
