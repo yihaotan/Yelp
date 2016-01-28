@@ -36,4 +36,43 @@ Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visu
 
 ###Getting Started
 
+CSV package
+```
+def csvReader(fileName):
+    cr = csv.reader(open(fileName,'r'))
+    skipHeader = next(cr,None)
+    return cr
+```
+- read the csv file by each row
+- skip the header row
+```
+def csvWriter(fileName):
+    cw = csv.writer(open(fileName, "a"), delimiter='|', quoting=csv.QUOTE_NONE, escapechar=' ')
+    return cw
+```
+- append the content into the csv file with the delimiter '|'
+
+TextBlob package
+```
+blob = TextBlob(text)
+posCount = 0;
+negCount = 0;
+for s in blob.sentences:
+  if s.polarity > 0:
+    posCount +=1;
+  elif s.polarity < 0:
+    negCount +=1;
+  if posCount > negCount:
+    pol = "pos"
+  elif negCount > posCount:
+    pol = "neg"
+  else:
+    pol = "neu"
+```
+- initialise TextBlob, a sentiment classifier for text review
+- read the text review by each sentence
+- classify each sentence based on polarity namely negative, neutral and positive
+- if the number of positive sentences > negative sentences, text review == positive and vice-versa
+- use to get data required for Tableau dashboard1
+
 
