@@ -15,6 +15,9 @@ Demo: goo.gl/RbKSdw
 ##Architecture
 Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visualisation and data cleansing / mining respectively.
 
+##Poster
+![ScreenShot](/Poster/Yelp Poster.png)
+
 ##Documentation
 ###Data
 1. Tableau dashboard1 data: https://goo.gl/Ij0MTN
