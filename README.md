@@ -111,7 +111,7 @@ try:
 ```
 - initialise TextBlob, a sentiment classifier for text review
 - classify the adjective based on polarity namely negative, neutral and positive
-- get data required for Tableau dashboard2.
+- get data required for Tableau dashboard2
 
 Counter package
 ```
