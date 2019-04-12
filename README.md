@@ -6,20 +6,20 @@ The Tableau dashboards allow the users to evaluate the frequency of the positive
 
 Demo: goo.gl/RbKSdw
 
-##Core Features 
+## Core Features 
 - Text and Sentiment classifier (Textblob)
 - General Overview of the resturants (Location of the popular and unpopular resturants)
 - Competitor Analysis for the resturants with similar business category and location etc. (Side by Side Wordclouds to display the positive, neutral and negative keywords)
 - Bigram Analysis for the resturants with similar business category and location etc. (Wordcloud and barcharts to display the importance, frequency * polarity score, of positve and negative keywords) 
 
-##Architecture
+## Architecture
 Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visualisation and data cleansing / mining respectively.
 
-##Poster
+## Poster
 ![ScreenShot](/Poster/Yelp Poster.png)
 
-##Documentation
-###Data
+## Documentation
+### Data
 1. Tableau dashboard1 data: https://goo.gl/Ij0MTN
 2. Tableau dashboard2 data: https://goo.gl/TkOD0W
 3. Tableau dashboard3 data: https://goo.gl/DoIP4u
@@ -32,12 +32,12 @@ Yelp Text and Sentiment Analysis dashboard uses Tableau and Python for data visu
 10. Stopwords https://goo.gl/GBQSKp (Tableau3.py)
 
 
-###Codes
+### Codes
 1. TextSplit.py
 2. Tableau2.py
 3. Tableau3.py
 
-###Getting Started
+### Getting Started
 
 CSV package
 ```
